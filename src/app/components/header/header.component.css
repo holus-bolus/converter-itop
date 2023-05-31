@@ -1,0 +1,16 @@
+.header {
+  text-align: center;
+
+
+}
+
+.rates-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.4;
+}

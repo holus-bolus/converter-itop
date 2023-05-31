@@ -1,0 +1,15 @@
+<div>
+  <label>
+    <input [(ngModel)]="fromValue" (change)="handleFromValueChange($event)" type="number">
+    <select [(ngModel)]="fromCurrency" (change)="handleFromCurrencyChange($event)">
+      <option *ngFor="let currency of currencies" [value]="currency">{{ currency }}</option>
+    </select>
+  </label>
+  =
+  <label>
+    <input [(ngModel)]="toValue" (change)="handleToValueChange($event)" type="number">
+    <select [(ngModel)]="toCurrency" (change)="handleToCurrencyChange($event)">
+      <option *ngFor="let currency of currencies" [value]="currency">{{ currency }}</option>
+    </select>
+  </label>
+</div>
